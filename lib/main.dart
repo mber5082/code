@@ -98,7 +98,7 @@ class _loginScreenState extends State<loginScreen> {
           const Text(
             "login to your App",
             style: TextStyle(
-                color: Colors.pink,
+                color: Colors.green,
                 fontSize: 44.00,
                 fontWeight: FontWeight.bold),
           ),
@@ -125,7 +125,7 @@ class _loginScreenState extends State<loginScreen> {
                 hintText: "User Password",
                 prefixIcon: Icon(
                   Icons.lock,
-                  color: Colors.purple,
+                  color: Colors.orange,
                 )),
           ),
           const SizedBox(
@@ -169,7 +169,7 @@ class _loginScreenState extends State<loginScreen> {
             padding: EdgeInsets.only(top: 10),
             width: double.infinity,
             child: RawMaterialButton(
-              fillColor: const Color(0xFFE91E63),
+              fillColor: Colors.black,
               elevation: 0.0,
               padding: const EdgeInsets.symmetric(vertical: 20.0),
               shape: RoundedRectangleBorder(

@@ -4,6 +4,29 @@ import 'package:flutter/material.dart';
 import 'package:flutter_lab10/profile_screen.dart';
 import 'package:flutter_lab10/register_screen.dart';
 
+/*
+//void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
+}
+
+
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+// Replace with actual values
+    options: FirebaseOptions(
+        apiKey: "XXX",
+        appId: "XXX",
+        messagingSenderId: "XXX",
+        projectId: "XXX"),
+  );
+  runApp(const MyApp());
+}
+*/
 void main() {
   runApp(const MyApp());
 }
@@ -91,7 +114,7 @@ class _loginScreenState extends State<loginScreen> {
           const Text(
             "My App Tittle",
             style: TextStyle(
-                color: Colors.amber,
+                color: Color.fromARGB(255, 220, 175, 42),
                 fontSize: 28.0,
                 fontWeight: FontWeight.bold),
           ),
